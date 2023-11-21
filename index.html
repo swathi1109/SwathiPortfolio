@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+ }
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/bannerimage.webp");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color: #d3d3d3;
+    border: 2px solid black;
+}
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid black;
+}
+
+
+  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swathi's Personal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!---- ! Navbar Start ---->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand animate__animated animate__flipInX " href="/">Swathi's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#internships">Internships</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!---- ! Navbar End ---->
+
+
+  <!--- Banner Start --->
+
+  <section class="bannerBgImage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText">
+          <h2 class="bannerTitle text-center animate__animated animate__zoomInDown">Hello Developers.....!</h2>
+          <p class="bannerDesc text-center animate__animated animate__slideInLeft">Welcome to the Portfolio!!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--- Banner End --->
+
+
+  <!--- !About Start --->
+  <br><br>
+  <section data-aos="fade-up" data-aos-duration="2000">
+    <div class="container" id="about">
+      <br>
+      <h1 class="text-center">ABOUT ME</h1>
+      <div class="row">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-duration="4000">
+          <img src="images/passportPicture.jpg" alt="passportPicture" class="card-img img-fluid">
+        </div>
+
+
+        <div class="col-md-8">
+          <p><br><i>I was born and raised up in Visakhapatnam. I am currently pursuing my Bachelor's Degree in Vignan's
+              Institute of Engineering for Women,Kapujaggarajupeta. I aim to see myself in a role that challenges my
+              skill everyday
+              and upgrade my knowledge as well as the Company's Growth. I believe in Hardwork and Independence. I
+              strongly believe Hardwork is the formula for peace employment and success. As my grandfather is a
+              Farmer, I love the nature and its things. My Father is a mechanic so that made a true hardworker. The
+              roots of my family made me a good hardworker.
+              This is my Portfolio Site. To know more about me , you can view my complete profile below.</i>
+          </p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p><b>Personal Information:</b></p>
+              <ul>
+                <li>Name : Petakamsetty Swathi</li>
+                <li>Father's Name : Petakamsetty Ramana Babu</li>
+                <li>Mother's Name : Petakamsetty Lakshmi</li>
+                <li>Date of Birth : 11-09-2002</li>
+                <li>Age : 20</li>
+                <li>Gender : Female</li>
+                <li>Nationality : Indian</li>
+                <li>Religion : Hindu</li>
+                <li>Education : Bachelor of Technology(CSE)</li>
+                <li>Maritial Status : Unmarried</li>
+                <li>Aggregate Percentage : 78.41%</li>
+                <li>Technologies Known :
+                <li>Front End : HTML,Javascript,CSS</li>
+                <li>Back End : C,Java,Python</li>
+                <li>Data Base : MySQL,DBMS</li>
+                </li>
+                <li>Portfolio : <a
+                    href="https://drive.google.com/file/d/1Ly7d7GB-uVxwqyIK7awuAFdRW6gLuMpt/view?usp=drive_link"
+                    target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click Here for Portfolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--- !About End --->
+
+  <!--- !Courses Start --->
+  <br><br>
+  <section data-aos="zoom-in-down">
+    <div class="container" id="certifications">
+      <h1 class="text-center">CERTIFICATIONS</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card my-3 ">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/infosysspringboard.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Infosys SpringBoard</h5>
+              <p class="card-text text-center">
+                Infosys SpringBoard Certification for completion of HTML course<br><a
+                  href="https://drive.google.com/file/d/1FORnfVV6ytg45lbUGj3xqTLNNcRx8c4F/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/leaps.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Leaps</h5>
+              <p class="card-text text-center">
+                Leaps - Analyttica certificate for Data Analytics Course completion<br><a
+                  href="https://drive.google.com/file/d/1LmRwTdURzTUwZWaDPM81Fkg9XysfoHd5/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/pantech.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Pantech E-learning</h5>
+              <p class="card-text text-center">
+                Pantech E-learning Certification for Python Course Completion<br><a
+                  href="https://drive.google.com/file/d/1LmpQcVHKgbNSE-y4cLJdC3O-ZLpDUX_S/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/nptel.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>NPTEL</h5>
+              <p class="card-text text-center">
+                NPTEL certifications for the course Problem solving through Programming in C,DBMS<br><a
+                  href="https://drive.google.com/file/d/1M6a99vfpEglcY_xy4apEBEMVThWtSshm/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/softchip.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Softchip</h5>
+              <p class="card-text text-center">
+                Softchip Computer Education Course Completion Certificate for MS-Office course completion<br><a
+                  href="https://drive.google.com/file/d/1MHP45k7Dttf7ZkwsqIr3AKfqFSIuVd4V/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div data-aos="flip-right" data-aos-duration="4000">
+              <img src="images/greatlearning.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Great Learning</h5>
+              <p class="card-text text-center">
+                Great Learning certificate for Cyber Security Course Completion<br><a
+                  href="https://drive.google.com/file/d/1M9OZIjZAm6KxBlUWlPv542qRIr633ni3/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <br><br>
+
+  <!--- !Courses End --->
+
+  <!--- !Internships Start --->
+  <br><br>
+  <section>
+    <div class="container" id="internships">
+      <h1 class="text-center">INTERNSHIPS</h1>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card my-3">
+            <div data-aos="flip-up" data-aos-duration="4000">
+              <img src="images/javafullstack.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Talentio</h5>
+              <p class="card-text text-center">
+                Java FullStack Development<br><a
+                  href="https://drive.google.com/file/d/1MFx5oHgtSiVy--GLcYLX2ddfKIkWPoRs/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card my-3">
+            <div data-aos="flip-up" data-aos-duration="4000">
+              <img src="images/aiml.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>APSCHE</h5>
+              <p class="card-text text-center">
+                AWS Artificial Intelligence and Machine Learning<br><a
+                  href="https://drive.google.com/file/d/1LkFlMI6I4xgDuO1_PBc_eEfhrZxssw0M/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-decoration-none">Click here to view the
+                  Certification</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <!--- !Internships End --->
+
+
+  <!---Projects Start--->
+  <br><br>
+  <section id="Portfolio" data-aos="fade-up" data-aos-duration="4000">
+    <div class="container" id="projects">
+      <h1 class="text-center">PROJECTS</h1><br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div data-aos="fade-right" data-aos-duration="5000">
+              <img src="images/fashion.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Fashion Recommendation System</b></h5>
+              <p class="card-text">Textile and fashion industries have witnessed an enormous amount
+                of growth in fast fashion. On e-commerce platforms, an efficient
+                recommendation system is required to sort, order, and efficiently convey relevant product content or
+                information to users. Image-based fashion recommendation systems (FRSs) have attracted a huge amount of
+                attention to the Fashion specialists.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div data-aos="fade-up" data-aos-duration="5000">
+              <img src="images/portfolio.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Portfolio Site</b></h5>
+              <p class="card-text">While it is a word which was once only used for artists, a portfolio in the modern
+                work sense refers to any body of creative work you use to show potential clients what you can do. A
+                graphic designer, photographer, or artist might use a portfolio, but so do writers and other content
+                creators, web developers, app developers, and even people like piercers and tattoo artists. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div data-aos="fade-left" data-aos-duration="5000">
+              <img src="images/crimerate.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><b>Crime Rate Prediction</b></h5>
+              <p class="card-text">Crime prediction became the hot research area nowadays because of its correlation
+                benefits to any society security. It adopts supervised learning
+                approaches to the field of crime prediction.
+
+                Data mining methods achieved the highest crime prediction accuracies,
+                overcoming machine learning methods. Machine learning out performs
+                data mining in crime prediction. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!---Projects End--->
+
+  <!---Contact Start--->
+  <br><br>
+  <section id="contact" data-aos="zoom-in-down">
+    <div class="container-fluid">
+      <h1 class="text-center">CONNECT WITH ME!!</h1><br>
+      <div class="row">
+        <div class="col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15201.472677371188!2d83.3232331923436!3d17.727283431501274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943593e39d85f%3A0xa42779b6db70980f!2sPedda%20Waltair%2C%20Visakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1687668187387!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="FullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="FullName" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="emailInput" class="form-label">Email ID</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="Enter your Email id">
+            </div>
+            <div class="mb-3">
+              <label for="teleInput" class="form-label">Contact No.</label>
+              <input type="tel" class="form-control" id="teleInput" placeholder="Enter your Contact no.">
+            </div>
+            <div class="mb-3">
+              <label for="textArea" class="form-label">Enter your Query Here</label>
+              <textarea class="form-control" id="textArea" rows="3" placeholder="Type your Query here"></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            </div></form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---Contact End--->
+
+  <!---Footer Start--->
+
+  <footer id="footer">
+    <div class="container-fluid bg-dark py-2">
+
+      <div class="mt-4 text-center px-1">
+        <a href="http://www.fb.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook bIcon"></i></a>
+        <a href="http://www.fb.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter bIcon"></i></a>
+        <a href="http://www.fb.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin bIcon"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <!---Footer End--->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
